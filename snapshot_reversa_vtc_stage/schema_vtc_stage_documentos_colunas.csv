@@ -1,0 +1,28 @@
+﻿column_name,data_type,ordinal_position
+nr_pedido,text,1
+ds_cliente,text,2
+cd_uf,text,3
+dt_coletaefetiva,timestamp with time zone,4
+dt_entregaefetiva,timestamp with time zone,5
+ds_programasaude,text,6
+ds_tipo,text,7
+ds_tag,text,8
+cd_referencia,text,9
+nr_produto,numeric,10
+cd_produtocliente,text,11
+ds_temperaturaproduto,text,12
+ds_descricaocliente,text,13
+cd_lote,text,14
+cd_ean,text,15
+modal,text,16
+nr_romaneio,bigint,17
+imported_at,timestamp with time zone,18
+imported_into_id,uuid,19
+inserted_at,timestamp with time zone,20
+inserted_by,text,21
+updated_at,timestamp with time zone,22
+updated_by,text,23
+cd_lpn,text,24
+dt_coletaefetivaembarque,timestamp with time zone,25
+dt_entregaefetivaembarque,timestamp with time zone,26
+id_integracacaocoleta,integer,27
