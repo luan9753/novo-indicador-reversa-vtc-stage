@@ -415,12 +415,15 @@ def build_html(base: pd.DataFrame, vals: dict[str, pd.DataFrame]) -> str:
     sem_rom = int((base["status_romaneio"] == "SEM_ROMANEIO").sum())
     sem_tag = int(nonblank(base["tag"]).eq("").sum())
     detail_cols = ["nr_pedido", "nr_romaneio", "cd_lpn", "tag", "tipo_datalogger", "cd_uf", "modal", "ultima_entrega", "ultima_entrega_embarque", "status_romaneio", "status_retorno"]
+    detail_headers = ["Pedido", "Romaneio", "LPN", "Logger", "Tipo Datalogger", "UF", "Modal", "Ultima Entrega", "Ultima Entrega Embarque", "Status Romaneio", "Status Retorno"]
+    detail_rows = base.sort_values("ultima_entrega", ascending=False).reindex(columns=detail_cols).fillna("").astype(str).values.tolist()
     payload = {
         "dia": vals["volumes_por_dia"].head(45).astype(str).to_dict("records"),
         "tipo": vals["volumes_por_tipo"].astype(str).to_dict("records"),
         "uf": vals["volumes_por_uf"].head(30).astype(str).to_dict("records"),
-        "headers": detail_cols,
-        "rows": base.sort_values("ultima_entrega", ascending=False).head(500).reindex(columns=detail_cols).fillna("").astype(str).values.tolist(),
+        "headers": detail_headers,
+        "rows": detail_rows[:500],
+        "csvRows": detail_rows,
     }
     return f"""<!doctype html>
 <html lang="pt-BR">
@@ -429,7 +432,7 @@ def build_html(base: pd.DataFrame, vals: dict[str, pd.DataFrame]) -> str:
 <title>Reversa Dataloggers VTC_STAGE</title>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <style>
-body{{margin:0;background:#0c1118;color:#edf4ff;font-family:Segoe UI,Arial,sans-serif}}header{{padding:28px 32px;border-bottom:1px solid #263447}}main{{padding:22px 32px}}h1{{margin:0 0 8px;font-size:1.65rem}}.sub,.note{{color:#9db0c6}}.note{{background:#261c10;border:1px solid #72521f;color:#ffdca8;border-radius:8px;padding:12px 14px;margin-bottom:16px}}.kpis{{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:12px;margin-bottom:18px}}.kpi,section{{background:#151d28;border:1px solid #263447;border-radius:8px;padding:14px}}.label{{color:#9db0c6;font-size:.78rem;text-transform:uppercase;font-weight:700}}.value{{margin-top:8px;font-size:1.55rem;font-weight:750}}.grid{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart{{height:330px}}table{{width:100%;border-collapse:collapse;font-size:.82rem}}th,td{{border-bottom:1px solid #263447;padding:8px 10px;white-space:nowrap;text-align:left}}th{{background:#111925;color:#c8d7ea;position:sticky;top:0}}.table-wrap{{overflow:auto;max-height:480px}}@media(max-width:980px){{.kpis,.grid{{grid-template-columns:1fr}}main,header{{padding-left:16px;padding-right:16px}}}}
+body{{margin:0;background:#0c1118;color:#edf4ff;font-family:Segoe UI,Arial,sans-serif}}header{{padding:28px 32px;border-bottom:1px solid #263447}}main{{padding:22px 32px}}h1{{margin:0 0 8px;font-size:1.65rem}}.sub,.note{{color:#9db0c6}}.note{{background:#261c10;border:1px solid #72521f;color:#ffdca8;border-radius:8px;padding:12px 14px;margin-bottom:16px}}.kpis{{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:12px;margin-bottom:18px}}.kpi,section{{background:#151d28;border:1px solid #263447;border-radius:8px;padding:14px}}.label{{color:#9db0c6;font-size:.78rem;text-transform:uppercase;font-weight:700}}.value{{margin-top:8px;font-size:1.55rem;font-weight:750}}.grid{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}.chart{{height:330px}}.section-head{{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}}.section-head h2{{margin:0}}.csv-link{{background:#1d4f8f;border:1px solid #4f94da;border-radius:6px;color:#fff;font-size:.82rem;font-weight:700;padding:7px 12px;text-decoration:none;white-space:nowrap}}.csv-link:hover{{background:#2561ab}}table{{width:100%;border-collapse:collapse;font-size:.82rem}}th,td{{border-bottom:1px solid #263447;padding:8px 10px;white-space:nowrap;text-align:left}}th{{background:#111925;color:#c8d7ea;position:sticky;top:0}}.table-wrap{{overflow:auto;max-height:480px}}@media(max-width:980px){{.kpis,.grid{{grid-template-columns:1fr}}main,header{{padding-left:16px;padding-right:16px}}.section-head{{align-items:flex-start;flex-direction:column}}}}
 </style>
 </head>
 <body>
@@ -437,7 +440,7 @@ body{{margin:0;background:#0c1118;color:#edf4ff;font-family:Segoe UI,Arial,sans-
 <main>
 <div class="note">Retorno ainda nao validado. Esta versao mede LPN, romaneio, embarque e qualidade da base; nao afirma "Retornado".</div>
 <div class="kpis"><div class="kpi"><div class="label">Unidades</div><div class="value">{total:,}</div></div><div class="kpi"><div class="label">Com romaneio</div><div class="value" style="color:#4ecb71">{com_rom:,}</div></div><div class="kpi"><div class="label">Sem romaneio</div><div class="value" style="color:#f0a04b">{sem_rom:,}</div></div><div class="kpi"><div class="label">Sem tag</div><div class="value" style="color:#e06060">{sem_tag:,}</div></div></div>
-<div class="grid"><section><h2>Caixas/LPNs por dia</h2><div id="dia" class="chart"></div></section><section><h2>Tipo de dispositivo</h2><div id="tipo" class="chart"></div></section><section><h2>Volumes por UF</h2><div id="uf" class="chart"></div></section><section><h2>Detalhe recente</h2><div class="table-wrap"><table id="tbl"></table></div></section></div>
+<div class="grid"><section><h2>Caixas/LPNs por dia</h2><div id="dia" class="chart"></div></section><section><h2>Tipo de dispositivo</h2><div id="tipo" class="chart"></div></section><section><h2>Volumes por UF</h2><div id="uf" class="chart"></div></section><section><div class="section-head"><h2>Detalhamento</h2><a id="csv-download" class="csv-link" href="#" download="detalhamento_reversa_vtc_stage.csv">Baixar CSV</a></div><div class="table-wrap"><table id="tbl"></table></div></section></div>
 </main>
 <script>
 const DATA = {json.dumps(payload, ensure_ascii=False)};
@@ -448,6 +451,10 @@ Plotly.newPlot('tipo',[{{type:'bar',x:DATA.tipo.map(r=>r.tipo_datalogger),y:DATA
 Plotly.newPlot('uf',[{{type:'bar',x:DATA.uf.map(r=>r.uf),y:DATA.uf.map(r=>Number(r.unidades)),marker:{{color:'#f0a04b'}}}}],layout,cfg);
 const esc=v=>String(v).replace(/[&<>]/g,c=>({{'&':'&amp;','<':'&lt;','>':'&gt;'}}[c]));
 document.getElementById('tbl').innerHTML='<thead><tr>'+DATA.headers.map(h=>`<th>${{esc(h)}}</th>`).join('')+'</tr></thead><tbody>'+DATA.rows.map(r=>'<tr>'+r.map(v=>`<td>${{esc(v)}}</td>`).join('')+'</tr>').join('')+'</tbody>';
+const csvEscape=v=>'"'+String(v ?? '').replace(/"/g,'""')+'"';
+const csvLines=[DATA.headers.map(csvEscape).join(',')].concat(DATA.csvRows.map(r=>r.map(csvEscape).join(',')));
+const csvBlob=new Blob([csvLines.join('\\n')],{{type:'text/csv;charset=utf-8;'}});
+document.getElementById('csv-download').href=URL.createObjectURL(csvBlob);
 </script>
 </body></html>"""
 
