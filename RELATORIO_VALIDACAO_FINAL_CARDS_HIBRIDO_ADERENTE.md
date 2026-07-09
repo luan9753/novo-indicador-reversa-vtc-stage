@@ -1,6 +1,6 @@
 # Relatorio Validacao Final Cards Hibrido Aderente
 
-Data/hora: 09/07/2026 15:16:07
+Data/hora: 09/07/2026 15:30:21
 
 ## Resultado
 
@@ -23,7 +23,7 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 
 - VTC_STAGE linhas brutas: 32.733
 - VTC_STAGE deduplicada: 27.620
-- Fonte original linhas brutas: 538.284
+- Fonte original linhas brutas: 538.289
 - Fonte original linhas consolidadas: 30.377
 - Fonte original deduplicada: 24.298
 - Com fonte original atualizada: 23.683
@@ -31,7 +31,7 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 - Cobertura: 85,75%
 - Join multiplicou linhas: false
 - Hash VTC_STAGE fresco: `9cc97cbdbe31545ece8fa682c0edc17ead7c906105add41f41e44db8f149c0bc`
-- Hash fonte original fresca: `558e44f1bc9584518bbe4c9be9326ca1407af01214a30b68a8b2b0af58851bcc`
+- Hash fonte original fresca: `4d56878caa8a565b498b63691ea0af7cea2014f5eb5600e2e6c9aee17311eae2`
 
 ## Camada operacional segura
 
@@ -49,19 +49,19 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 | --- | --- | --- | --- | --- |
 | Pedidos Entregues | 1.137 | 1.137 | 0 | OK |
 | Loggers Entregues | 8.564 | 8.564 | 0 | OK |
-| Loggers Retornados | 5.995 | 5.995 | 0 | OK |
-| Loggers Pendentes | 2.569 | 2.569 | 0 | OK |
-| Taxa de Retorno | 70,0% | 70,0% | +0,0 p,p, | OK |
-| Taxa de Pendencia | 30,0% | 30,0% | +0,0 p,p, | OK |
+| Loggers Retornados | 6.034 | 6.034 | 0 | OK |
+| Loggers Pendentes | 2.530 | 2.530 | 0 | OK |
+| Taxa de Retorno | 70,5% | 70,5% | +0,0 p,p, | OK |
+| Taxa de Pendencia | 29,5% | 29,5% | +0,0 p,p, | OK |
 
 ## Valores finais 30 dias
 
 - Pedidos Entregues: 1.137
 - Loggers Entregues: 8.564
-- Loggers Retornados: 5.995
-- Loggers Pendentes: 2.569
-- Taxa de Retorno: 70.0%
-- Taxa de Pendencia: 30.0%
+- Loggers Retornados: 6.034
+- Loggers Pendentes: 2.530
+- Taxa de Retorno: 70.5%
+- Taxa de Pendencia: 29.5%
 
 ## Confirmacoes
 
