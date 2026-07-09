@@ -1,4 +1,4 @@
-.env
+﻿.env
 .env.*
 *.env
 Banco_Aura/.env
@@ -16,6 +16,7 @@ README_PACOTE_AURA.md
 # Bases detalhadas geradas localmente
 *.pkl
 snapshot_reversa_vtc_stage/*.pkl
+snapshot_reversa_vtc_stage/
 snapshot_reversa_vtc_stage/base_vtc_stage_dedup.csv
 snapshot_reversa_vtc_stage/inconsistencias_*.csv
 snapshot_reversa_vtc_stage/diferenca_entrega_vs_embarque.csv
@@ -25,3 +26,12 @@ snapshot_reversa_vtc_stage/lpns_tags_por_romaneio.csv
 logs/
 *.bak
 *.codex_backup*
+backup.html
+BACKUP.html
+REVERSA_DATALOGGERS_STAGE_ANTES_REFRESH.html
+REVERSA_LOGGER.html
+
+REVERSA_DATALOGGERS_VTC_STAGE_CANDIDATO_LOCAL.html
+REVERSA_DATALOGGERS_VTC_STAGE_CANDIDATO_VISUAL_ADERENTE.html
+REVERSA_DATALOGGERS_VTC_STAGE_CANDIDATO_FINAL_HIBRIDO_FRESCO.html
+REVERSA_DATALOGGERS_VTC_STAGE_CANDIDATO_FINAL_HIBRIDO_FRESCO_NOMENCLATURA_OK.html

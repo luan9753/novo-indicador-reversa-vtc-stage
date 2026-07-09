@@ -1,0 +1,145 @@
+{
+  "gerado_em": "2026-07-09T13:03:21",
+  "base_principal": {
+    "fonte": "VTC_STAGE",
+    "schema": "vtc_stage",
+    "tabela": "documentos",
+    "campos_autorizados": [
+      "Pedido",
+      "LPN",
+      "Logger/Tag",
+      "Romaneio"
+    ],
+    "linhas_brutas": 32700,
+    "linhas": 27606,
+    "periodo_min": "2026-04-10T11:10:00.002000",
+    "periodo_max": "2026-07-09T14:57:00",
+    "extraido_em": "2026-07-09T13:03:31",
+    "hash": "1fb65786d0ab8eddf90ae45297842ef65bd0caaf1f7822a2700db8e33a3525c6"
+  },
+  "complemento_controlado": {
+    "fontes": [
+      "dtbPortal",
+      "dtbTransporte"
+    ],
+    "campos_autorizados": [
+      "Agente",
+      "Status Retorno",
+      "Ultimo Historico",
+      "UF Destino",
+      "Cidade Destino",
+      "Destinatario"
+    ],
+    "linhas_brutas": 538279,
+    "linhas_consolidadas": 30345,
+    "linhas_deduplicadas": 24285,
+    "conflitos_agente": 0,
+    "conflitos_status_retorno": 0,
+    "extraido_em": "2026-07-09T13:06:03",
+    "hash": "33b749c304dc3750ea4cd60730f4b48081d3f1140b898fd1929345d9910b24e9"
+  },
+  "join": {
+    "tipo": "left join a partir da VTC_STAGE",
+    "chave": "Pedido + Logger/Tag",
+    "match_bruto": 23669,
+    "sem_match_bruto": 3937,
+    "cobertura_bruta": "85,74%",
+    "match_operacional": 23647,
+    "sem_match_operacional": 0,
+    "cobertura_operacional": "100,00%",
+    "multiplicou_linhas": false
+  },
+  "camada_operacional": {
+    "linhas_entrada": 27606,
+    "linhas_operacionais_antes_dedup": 23669,
+    "linhas_operacionais_finais": 23647,
+    "duplicidade_chaves_antes_dedup": 22,
+    "duplicidade_linhas_antes_dedup": 44,
+    "duplicidade_chaves_final": 0,
+    "tipo_decisoes": {
+      "MANTIDO_TIPO_VALIDO": 23669
+    },
+    "remocoes": {
+      "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 481,
+      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3456,
+      "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
+    },
+    "tipo_nao_classificado_final": 0,
+    "status_operacionais": [
+      "Pendente de Retorno",
+      "Retornado"
+    ]
+  },
+  "validacao_cards": {
+    "periodo": "30 dias",
+    "status": "VALIDADO_COM_FONTES_FRESCAS",
+    "cards": [
+      {
+        "Card": "Pedidos Entregues",
+        "Valor HTML regenerado": "1.130",
+        "Valor fonte fresca": "1.130",
+        "Diferenca": "0",
+        "Status": "OK"
+      },
+      {
+        "Card": "Loggers Entregues",
+        "Valor HTML regenerado": "8.550",
+        "Valor fonte fresca": "8.550",
+        "Diferenca": "0",
+        "Status": "OK"
+      },
+      {
+        "Card": "Loggers Retornados",
+        "Valor HTML regenerado": "5.995",
+        "Valor fonte fresca": "5.995",
+        "Diferenca": "0",
+        "Status": "OK"
+      },
+      {
+        "Card": "Loggers Pendentes",
+        "Valor HTML regenerado": "2.555",
+        "Valor fonte fresca": "2.555",
+        "Diferenca": "0",
+        "Status": "OK"
+      },
+      {
+        "Card": "Taxa de Retorno",
+        "Valor HTML regenerado": "70,1%",
+        "Valor fonte fresca": "70,1%",
+        "Diferenca": "+0,0 p,p,",
+        "Status": "OK"
+      },
+      {
+        "Card": "Taxa de Pendencia",
+        "Valor HTML regenerado": "29,9%",
+        "Valor fonte fresca": "29,9%",
+        "Diferenca": "+0,0 p,p,",
+        "Status": "OK"
+      }
+    ]
+  },
+  "fail_closed": {
+    "status": "VALIDADO_COM_FONTES_FRESCAS",
+    "motivos_bloqueio": [],
+    "checks": {
+      "duplicidade_global_pedido_logger": 0,
+      "duplicidade_30d_pedido_logger": 0,
+      "tipo_nao_classificado": 0,
+      "logger_vazio": 0,
+      "pedido_vazio": 0,
+      "status_invalidos_count": 0,
+      "status_invalidos": [],
+      "status_operacionais": [
+        "Pendente de Retorno",
+        "Retornado"
+      ],
+      "lpn_preservado_internamente": true,
+      "lpn_oculto_tabela": true,
+      "lpn_oculto_exportacoes": true,
+      "termos_proibidos": [],
+      "cards_coerentes": true,
+      "periodo_30d_inicio": "2026-06-10T00:00:00",
+      "periodo_30d_fim": "2026-07-09T23:59:59.999000"
+    }
+  }
+}
