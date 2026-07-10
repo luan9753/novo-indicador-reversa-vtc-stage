@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-09T21:48:51",
+  "gerado_em": "2026-07-09T22:02:40",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,7 +14,7 @@
     "linhas": 27029,
     "periodo_min": "2026-04-11T15:38:00.002000",
     "periodo_max": "2026-07-09T19:50:00",
-    "extraido_em": "2026-07-09T21:49:01",
+    "extraido_em": "2026-07-09T22:02:52",
     "hash": "9ec6f18cb10793b351a571b02ee2fdcf46fcf063dd486eefd230cd5dbde0ec2e"
   },
   "complemento_controlado": {
@@ -35,8 +35,8 @@
     "linhas_deduplicadas": 24400,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-09T21:51:21",
-    "hash": "c496788a23d713da45dd12809367401af0f764c58c835917b47f5fddd22b624a"
+    "extraido_em": "2026-07-09T22:05:15",
+    "hash": "4cb3b288f2decf3f0153830d42d032082959b7993689b4d9dbfa5822bcd1faed"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
@@ -90,29 +90,29 @@
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "6.073",
-        "Valor fonte fresca": "6.073",
+        "Valor HTML regenerado": "6.090",
+        "Valor fonte fresca": "6.090",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.595",
-        "Valor fonte fresca": "2.595",
+        "Valor HTML regenerado": "2.578",
+        "Valor fonte fresca": "2.578",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "70,1%",
-        "Valor fonte fresca": "70,1%",
+        "Valor HTML regenerado": "70,3%",
+        "Valor fonte fresca": "70,3%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "29,9%",
-        "Valor fonte fresca": "29,9%",
+        "Valor HTML regenerado": "29,7%",
+        "Valor fonte fresca": "29,7%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
