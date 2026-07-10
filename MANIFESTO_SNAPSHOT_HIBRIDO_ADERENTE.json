@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-09T22:02:40",
+  "gerado_em": "2026-07-09T22:16:31",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,7 +14,7 @@
     "linhas": 27029,
     "periodo_min": "2026-04-11T15:38:00.002000",
     "periodo_max": "2026-07-09T19:50:00",
-    "extraido_em": "2026-07-09T22:02:52",
+    "extraido_em": "2026-07-09T22:16:40",
     "hash": "9ec6f18cb10793b351a571b02ee2fdcf46fcf063dd486eefd230cd5dbde0ec2e"
   },
   "complemento_controlado": {
@@ -30,13 +30,13 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 538367,
+    "linhas_brutas": 538371,
     "linhas_consolidadas": 30499,
     "linhas_deduplicadas": 24400,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-09T22:05:15",
-    "hash": "4cb3b288f2decf3f0153830d42d032082959b7993689b4d9dbfa5822bcd1faed"
+    "extraido_em": "2026-07-09T22:19:03",
+    "hash": "66e82f86b94abf0c42a8647ec330716842877753a219e048bc694399d3d9e83b"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
@@ -90,29 +90,29 @@
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "6.090",
-        "Valor fonte fresca": "6.090",
+        "Valor HTML regenerado": "6.105",
+        "Valor fonte fresca": "6.105",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.578",
-        "Valor fonte fresca": "2.578",
+        "Valor HTML regenerado": "2.563",
+        "Valor fonte fresca": "2.563",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "70,3%",
-        "Valor fonte fresca": "70,3%",
+        "Valor HTML regenerado": "70,4%",
+        "Valor fonte fresca": "70,4%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "29,7%",
-        "Valor fonte fresca": "29,7%",
+        "Valor HTML regenerado": "29,6%",
+        "Valor fonte fresca": "29,6%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
