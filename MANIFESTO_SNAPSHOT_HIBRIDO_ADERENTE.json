@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-10T17:41:25",
+  "gerado_em": "2026-07-10T17:55:19",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32346,
-    "linhas": 27308,
+    "linhas_brutas": 32394,
+    "linhas": 27329,
     "periodo_min": "2026-04-11T15:38:00.002000",
     "periodo_max": "2026-07-10T20:39:00",
-    "extraido_em": "2026-07-10T17:41:32",
-    "hash": "16b55e8793c50bcbc95347deaa40f07222622c209379912d8f8c3444a5fb2e66"
+    "extraido_em": "2026-07-10T17:55:35",
+    "hash": "bb4504a4a8739896248b2657e66fe4a7342237e27cfe0cbe22ae696b90d2978e"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,34 +30,34 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539181,
-    "linhas_consolidadas": 30900,
-    "linhas_deduplicadas": 24681,
+    "linhas_brutas": 539191,
+    "linhas_consolidadas": 30945,
+    "linhas_deduplicadas": 24702,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-10T17:43:20",
-    "hash": "65068645f4c1a23a971854d36adcbf1d75475c554830de1c61e7e0d43eb4e614"
+    "extraido_em": "2026-07-10T17:57:20",
+    "hash": "a7b8c554f9758838e11faf5e50c76a68c595d362a644e1a6a5078e2bc3d4cd3d"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23944,
+    "match_bruto": 23965,
     "sem_match_bruto": 3364,
-    "cobertura_bruta": "87,68%",
-    "match_operacional": 23922,
+    "cobertura_bruta": "87,69%",
+    "match_operacional": 23943,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27308,
-    "linhas_operacionais_antes_dedup": 23944,
-    "linhas_operacionais_finais": 23922,
+    "linhas_entrada": 27329,
+    "linhas_operacionais_antes_dedup": 23965,
+    "linhas_operacionais_finais": 23943,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23944
+      "MANTIDO_TIPO_VALIDO": 23965
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 475,
@@ -76,15 +76,15 @@
     "cards": [
       {
         "Card": "Pedidos Entregues",
-        "Valor HTML regenerado": "1.186",
-        "Valor fonte fresca": "1.186",
+        "Valor HTML regenerado": "1.188",
+        "Valor fonte fresca": "1.188",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "8.369",
-        "Valor fonte fresca": "8.369",
+        "Valor HTML regenerado": "8.390",
+        "Valor fonte fresca": "8.390",
         "Diferenca": "0",
         "Status": "OK"
       },
@@ -97,22 +97,22 @@
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.257",
-        "Valor fonte fresca": "2.257",
+        "Valor HTML regenerado": "2.278",
+        "Valor fonte fresca": "2.278",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "73,0%",
-        "Valor fonte fresca": "73,0%",
+        "Valor HTML regenerado": "72,8%",
+        "Valor fonte fresca": "72,8%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "27,0%",
-        "Valor fonte fresca": "27,0%",
+        "Valor HTML regenerado": "27,2%",
+        "Valor fonte fresca": "27,2%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
