@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-10T09:28:58",
+  "gerado_em": "2026-07-10T09:44:51",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 31998,
-    "linhas": 27064,
+    "linhas_brutas": 31999,
+    "linhas": 27065,
     "periodo_min": "2026-04-11T15:38:00.002000",
-    "periodo_max": "2026-07-09T22:00:00",
-    "extraido_em": "2026-07-10T09:29:12",
-    "hash": "613794b6f54c6b1caeabdd2fba6ad677c6f7d0c1c96cc67f036f38b992d81354"
+    "periodo_max": "2026-07-10T12:27:00",
+    "extraido_em": "2026-07-10T09:44:58",
+    "hash": "b5f644ae0b534e3535ee6ae46df31bca33dcce09035c622bc90b04027238332c"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,34 +30,34 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 538568,
+    "linhas_brutas": 538573,
     "linhas_consolidadas": 30548,
     "linhas_deduplicadas": 24437,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-10T09:31:08",
+    "extraido_em": "2026-07-10T09:46:48",
     "hash": "dda45ae91ca372a099c7316a7746caec1f636b89e2cc3201c766130de5c3b3b0"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23703,
+    "match_bruto": 23704,
     "sem_match_bruto": 3361,
     "cobertura_bruta": "87,58%",
-    "match_operacional": 23681,
+    "match_operacional": 23682,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27064,
-    "linhas_operacionais_antes_dedup": 23703,
-    "linhas_operacionais_finais": 23681,
+    "linhas_entrada": 27065,
+    "linhas_operacionais_antes_dedup": 23704,
+    "linhas_operacionais_finais": 23682,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23703
+      "MANTIDO_TIPO_VALIDO": 23704
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 475,
@@ -76,43 +76,43 @@
     "cards": [
       {
         "Card": "Pedidos Entregues",
-        "Valor HTML regenerado": "1.163",
-        "Valor fonte fresca": "1.163",
+        "Valor HTML regenerado": "1.127",
+        "Valor fonte fresca": "1.127",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "8.703",
-        "Valor fonte fresca": "8.703",
+        "Valor HTML regenerado": "8.128",
+        "Valor fonte fresca": "8.128",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "6.273",
-        "Valor fonte fresca": "6.273",
+        "Valor HTML regenerado": "5.720",
+        "Valor fonte fresca": "5.720",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.430",
-        "Valor fonte fresca": "2.430",
+        "Valor HTML regenerado": "2.408",
+        "Valor fonte fresca": "2.408",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "72,1%",
-        "Valor fonte fresca": "72,1%",
+        "Valor HTML regenerado": "70,4%",
+        "Valor fonte fresca": "70,4%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "27,9%",
-        "Valor fonte fresca": "27,9%",
+        "Valor HTML regenerado": "29,6%",
+        "Valor fonte fresca": "29,6%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
@@ -138,8 +138,8 @@
       "lpn_oculto_exportacoes": true,
       "termos_proibidos": [],
       "cards_coerentes": true,
-      "periodo_30d_inicio": "2026-06-10T00:00:00",
-      "periodo_30d_fim": "2026-07-09T23:59:59.999000"
+      "periodo_30d_inicio": "2026-06-11T00:00:00",
+      "periodo_30d_fim": "2026-07-10T23:59:59.999000"
     }
   }
 }
