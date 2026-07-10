@@ -1,6 +1,6 @@
 # Relatorio Validacao Final Cards Hibrido Aderente
 
-Data/hora: 10/07/2026 13:22:27
+Data/hora: 10/07/2026 13:36:21
 
 ## Resultado
 
@@ -23,15 +23,15 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 
 - VTC_STAGE linhas brutas: 32.103
 - VTC_STAGE deduplicada: 27.138
-- Fonte original linhas brutas: 538.715
-- Fonte original linhas consolidadas: 30.652
-- Fonte original deduplicada: 24.509
+- Fonte original linhas brutas: 538.731
+- Fonte original linhas consolidadas: 30.670
+- Fonte original deduplicada: 24.524
 - Com fonte original atualizada: 23.776
 - Sem fonte original atualizada: 3.362
 - Cobertura: 87,61%
 - Join multiplicou linhas: false
 - Hash VTC_STAGE fresco: `6cd697b4634b87c59013c38fcf02629964a4ba37a6199dbcc42fa955c89d3e8e`
-- Hash fonte original fresca: `8efe74b7e57d6e40a5b91d75a468f9f7027f136c00d5f04b413c5a6b04a9e7ef`
+- Hash fonte original fresca: `e7c36a6148c8a18ee2ac554a2dd9af2979439210ba3581eed3f22841709284b9`
 
 ## Camada operacional segura
 
