@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-10T13:08:20",
+  "gerado_em": "2026-07-10T13:22:27",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32070,
-    "linhas": 27115,
+    "linhas_brutas": 32103,
+    "linhas": 27138,
     "periodo_min": "2026-04-11T15:38:00.002000",
-    "periodo_max": "2026-07-10T15:47:00",
-    "extraido_em": "2026-07-10T13:08:27",
-    "hash": "d07525e9d9d57ce671b6a0d009e5257484ed00f378835639f788486edf82b5ec"
+    "periodo_max": "2026-07-10T15:57:00",
+    "extraido_em": "2026-07-10T13:22:41",
+    "hash": "6cd697b4634b87c59013c38fcf02629964a4ba37a6199dbcc42fa955c89d3e8e"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,38 +30,38 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 538693,
-    "linhas_consolidadas": 30651,
-    "linhas_deduplicadas": 24508,
+    "linhas_brutas": 538715,
+    "linhas_consolidadas": 30652,
+    "linhas_deduplicadas": 24509,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-10T13:10:21",
-    "hash": "6381e7ab7fafaa75ce709d8bd0e3bd767eec862264baf1ba36059ec74fcf1eb1"
+    "extraido_em": "2026-07-10T13:24:31",
+    "hash": "8efe74b7e57d6e40a5b91d75a468f9f7027f136c00d5f04b413c5a6b04a9e7ef"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23752,
-    "sem_match_bruto": 3363,
-    "cobertura_bruta": "87,60%",
-    "match_operacional": 23730,
+    "match_bruto": 23776,
+    "sem_match_bruto": 3362,
+    "cobertura_bruta": "87,61%",
+    "match_operacional": 23754,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27115,
-    "linhas_operacionais_antes_dedup": 23752,
-    "linhas_operacionais_finais": 23730,
+    "linhas_entrada": 27138,
+    "linhas_operacionais_antes_dedup": 23776,
+    "linhas_operacionais_finais": 23754,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23752
+      "MANTIDO_TIPO_VALIDO": 23776
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 475,
-      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 2888,
+      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 2887,
       "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
     },
     "tipo_nao_classificado_final": 0,
@@ -76,43 +76,43 @@
     "cards": [
       {
         "Card": "Pedidos Entregues",
-        "Valor HTML regenerado": "1.150",
-        "Valor fonte fresca": "1.150",
+        "Valor HTML regenerado": "1.155",
+        "Valor fonte fresca": "1.155",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "8.177",
-        "Valor fonte fresca": "8.177",
+        "Valor HTML regenerado": "8.201",
+        "Valor fonte fresca": "8.201",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "5.720",
-        "Valor fonte fresca": "5.720",
+        "Valor HTML regenerado": "5.834",
+        "Valor fonte fresca": "5.834",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.457",
-        "Valor fonte fresca": "2.457",
+        "Valor HTML regenerado": "2.367",
+        "Valor fonte fresca": "2.367",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "70,0%",
-        "Valor fonte fresca": "70,0%",
+        "Valor HTML regenerado": "71,1%",
+        "Valor fonte fresca": "71,1%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "30,0%",
-        "Valor fonte fresca": "30,0%",
+        "Valor HTML regenerado": "28,9%",
+        "Valor fonte fresca": "28,9%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
