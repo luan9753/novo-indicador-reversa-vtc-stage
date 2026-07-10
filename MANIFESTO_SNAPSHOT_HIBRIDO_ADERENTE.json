@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-10T14:17:59",
+  "gerado_em": "2026-07-10T14:31:49",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32121,
-    "linhas": 27153,
+    "linhas_brutas": 32123,
+    "linhas": 27155,
     "periodo_min": "2026-04-11T15:38:00.002000",
-    "periodo_max": "2026-07-10T15:57:00",
-    "extraido_em": "2026-07-10T14:18:10",
-    "hash": "719ae6b70c6557127ca8247d757f44b84a5e67a73936b38319e5503d754bb15f"
+    "periodo_max": "2026-07-10T17:17:05.474000",
+    "extraido_em": "2026-07-10T14:31:59",
+    "hash": "ba61117dfeafe5d3fab132a69156c1895a85542f7510fb108675ab268399dcc5"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,27 +30,27 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 538787,
+    "linhas_brutas": 538792,
     "linhas_consolidadas": 30670,
     "linhas_deduplicadas": 24524,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-10T14:20:05",
+    "extraido_em": "2026-07-10T14:33:56",
     "hash": "8b13e14adc9046f815adaf3c0a1a994329ff83ada350b7780e6b5e19ec87144f"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
     "match_bruto": 23791,
-    "sem_match_bruto": 3362,
-    "cobertura_bruta": "87,62%",
+    "sem_match_bruto": 3364,
+    "cobertura_bruta": "87,61%",
     "match_operacional": 23769,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27153,
+    "linhas_entrada": 27155,
     "linhas_operacionais_antes_dedup": 23791,
     "linhas_operacionais_finais": 23769,
     "duplicidade_chaves_antes_dedup": 22,
@@ -61,7 +61,7 @@
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 475,
-      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 2887,
+      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 2889,
       "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
     },
     "tipo_nao_classificado_final": 0,
