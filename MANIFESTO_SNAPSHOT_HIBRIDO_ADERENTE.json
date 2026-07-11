@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-10T20:54:57",
+  "gerado_em": "2026-07-10T21:09:05",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32588,
-    "linhas": 27501,
-    "periodo_min": "2026-04-11T15:38:00.002000",
+    "linhas_brutas": 32577,
+    "linhas": 27494,
+    "periodo_min": "2026-04-13T09:47:00.002000",
     "periodo_max": "2026-07-10T21:30:00",
-    "extraido_em": "2026-07-10T20:55:16",
-    "hash": "b07257eeb49b659723ecac60d928b5f561f3c77bff2044b55f9dce04450b7da4"
+    "extraido_em": "2026-07-10T21:09:22",
+    "hash": "4f2cc8abf1e80427e314d999492246efa5459d15736e9cb50db9c0cc1f93300b"
   },
   "complemento_controlado": {
     "fontes": [
@@ -35,22 +35,22 @@
     "linhas_deduplicadas": 24766,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-10T20:57:10",
+    "extraido_em": "2026-07-10T21:11:14",
     "hash": "a01d6f3fcb6bfccb0164a2fd7bf1e833f18bb7dbf5ecf463cab51c0ba1e3117d"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
     "match_bruto": 24029,
-    "sem_match_bruto": 3472,
-    "cobertura_bruta": "87,38%",
+    "sem_match_bruto": 3465,
+    "cobertura_bruta": "87,40%",
     "match_operacional": 24007,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27501,
+    "linhas_entrada": 27494,
     "linhas_operacionais_antes_dedup": 24029,
     "linhas_operacionais_finais": 24007,
     "duplicidade_chaves_antes_dedup": 22,
@@ -61,7 +61,7 @@
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 583,
-      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 2889,
+      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 2882,
       "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
     },
     "tipo_nao_classificado_final": 0,
