@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-11T14:47:30",
+  "gerado_em": "2026-07-11T15:01:29",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,7 +14,7 @@
     "linhas": 27516,
     "periodo_min": "2026-04-13T09:47:00.002000",
     "periodo_max": "2026-07-11T14:48:00",
-    "extraido_em": "2026-07-11T14:47:43",
+    "extraido_em": "2026-07-11T15:01:41",
     "hash": "0f459308d3b44c22a4bddaa52eeb943737bb557090d6770570da0b66d0da3a0b"
   },
   "complemento_controlado": {
@@ -35,7 +35,7 @@
     "linhas_deduplicadas": 24788,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-11T14:49:49",
+    "extraido_em": "2026-07-11T15:03:41",
     "hash": "c2c083c291de9ffe0b6fa7c2e5daa17c7a592bba6f2037fd30cc8841fcc32dd8"
   },
   "join": {
