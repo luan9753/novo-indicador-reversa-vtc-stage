@@ -1,6 +1,6 @@
 # Relatorio Validacao Final Cards Hibrido Aderente
 
-Data/hora: 11/07/2026 06:11:03
+Data/hora: 11/07/2026 06:25:19
 
 ## Resultado
 
