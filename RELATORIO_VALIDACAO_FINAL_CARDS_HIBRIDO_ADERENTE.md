@@ -1,6 +1,6 @@
 # Relatorio Validacao Final Cards Hibrido Aderente
 
-Data/hora: 12/07/2026 05:03:43
+Data/hora: 12/07/2026 05:17:52
 
 ## Resultado
 
@@ -23,25 +23,25 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 
 - VTC_STAGE linhas brutas: 32.619
 - VTC_STAGE deduplicada: 27.521
-- Fonte original linhas brutas: 539.425
-- Fonte original linhas consolidadas: 30.737
-- Fonte original deduplicada: 24.593
-- Com fonte original atualizada: 23.913
-- Sem fonte original atualizada: 3.608
-- Cobertura: 86,89%
+- Fonte original linhas brutas: 539.414
+- Fonte original linhas consolidadas: 30.709
+- Fonte original deduplicada: 24.580
+- Com fonte original atualizada: 23.900
+- Sem fonte original atualizada: 3.621
+- Cobertura: 86,84%
 - Join multiplicou linhas: false
 - Hash VTC_STAGE fresco: `0498c6d5d4b4dbe572be0d8eb963bc202dfe1e25fa89337aa0d47aea14aa3316`
-- Hash fonte original fresca: `ec1d56209e9f79fec3cb558352f3c30cd538fe40a04fbd9bb90897f5c634f21d`
+- Hash fonte original fresca: `fafe9ca643910768bfb527faca56f5517bc57eb439461fbe8dd763be03d9b0e0`
 
 ## Camada operacional segura
 
 - Linhas de entrada antes da regra operacional: 27.521
-- Linhas operacionais finais: 23.891
+- Linhas operacionais finais: 23.878
 - Duplicidade Pedido + Logger antes da deduplicacao: 22 chaves / 44 linhas
 - Duplicidade Pedido + Logger final: 0
 - TIPO_NAO_CLASSIFICADO final: 0
 - Status operacionais finais: Pendente de Retorno, Retornado
-- Remocoes aplicadas: `{"REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 583, "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3025, "REMOVIDO_DUPLICIDADE_DESEMPATE": 22}`
+- Remocoes aplicadas: `{"REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 583, "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3038, "REMOVIDO_DUPLICIDADE_DESEMPATE": 22}`
 
 ## Validacao dos cards 30 dias
 
