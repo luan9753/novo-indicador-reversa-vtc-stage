@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T06:00:36",
+  "gerado_em": "2026-07-12T06:14:42",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,7 +14,7 @@
     "linhas": 27521,
     "periodo_min": "2026-04-13T09:47:00.002000",
     "periodo_max": "2026-07-11T22:54:00",
-    "extraido_em": "2026-07-12T06:00:54",
+    "extraido_em": "2026-07-12T06:14:58",
     "hash": "0498c6d5d4b4dbe572be0d8eb963bc202dfe1e25fa89337aa0d47aea14aa3316"
   },
   "complemento_controlado": {
@@ -30,38 +30,38 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539394,
-    "linhas_consolidadas": 30639,
-    "linhas_deduplicadas": 24544,
+    "linhas_brutas": 539372,
+    "linhas_consolidadas": 30586,
+    "linhas_deduplicadas": 24512,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-12T06:02:42",
-    "hash": "22b79092e17eff1754c97d919f99e46dd4efbae4c022146610593060fdb242db"
+    "extraido_em": "2026-07-12T06:16:42",
+    "hash": "8df6dadc931c10bf088ad4ca05c0dabd90367559aaca283d2b56fe8252031ecf"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23864,
-    "sem_match_bruto": 3657,
-    "cobertura_bruta": "86,71%",
-    "match_operacional": 23842,
+    "match_bruto": 23832,
+    "sem_match_bruto": 3689,
+    "cobertura_bruta": "86,60%",
+    "match_operacional": 23810,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
     "linhas_entrada": 27521,
-    "linhas_operacionais_antes_dedup": 23864,
-    "linhas_operacionais_finais": 23842,
+    "linhas_operacionais_antes_dedup": 23832,
+    "linhas_operacionais_finais": 23810,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23864
+      "MANTIDO_TIPO_VALIDO": 23832
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 583,
-      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3074,
+      "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3106,
       "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
     },
     "tipo_nao_classificado_final": 0,
