@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T19:36:48",
+  "gerado_em": "2026-07-12T19:50:09",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,7 +14,7 @@
     "linhas": 27521,
     "periodo_min": "2026-04-13T09:47:00.002000",
     "periodo_max": "2026-07-11T22:54:00",
-    "extraido_em": "2026-07-12T19:36:58",
+    "extraido_em": "2026-07-12T19:50:31",
     "hash": "0498c6d5d4b4dbe572be0d8eb963bc202dfe1e25fa89337aa0d47aea14aa3316"
   },
   "complemento_controlado": {
@@ -30,12 +30,12 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539301,
+    "linhas_brutas": 539300,
     "linhas_consolidadas": 30586,
     "linhas_deduplicadas": 24512,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-12T19:38:40",
+    "extraido_em": "2026-07-12T19:52:22",
     "hash": "bff39ad97a0af14d3c9af57d7e48ed2bfa2c9870d47a513db7bc5a6e319fbf8f"
   },
   "join": {
