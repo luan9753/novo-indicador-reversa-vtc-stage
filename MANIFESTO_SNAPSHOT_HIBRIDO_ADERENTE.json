@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T08:06:41",
+  "gerado_em": "2026-07-13T08:20:03",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32546,
-    "linhas": 27465,
+    "linhas_brutas": 32595,
+    "linhas": 27499,
     "periodo_min": "2026-04-14T10:41:50.002000",
-    "periodo_max": "2026-07-11T22:54:00",
-    "extraido_em": "2026-07-13T08:06:48",
-    "hash": "1d8a3c518d35c9cb9b2e9ea800491f23167091c71e478344d5d62d1c14c4da25"
+    "periodo_max": "2026-07-12T10:00:00",
+    "extraido_em": "2026-07-13T08:20:22",
+    "hash": "766922e5ace0958ee609f7e5f27f743ce1dacce35df1dd8e3a312789982a88bf"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,34 +30,34 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539899,
-    "linhas_consolidadas": 30386,
-    "linhas_deduplicadas": 24319,
+    "linhas_brutas": 539917,
+    "linhas_consolidadas": 30439,
+    "linhas_deduplicadas": 24357,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-13T08:08:33",
-    "hash": "a193e90fa50c9e73eef57f5a6ef4d179990f9f5182c3cfb40cf1a1cebf411dfd"
+    "extraido_em": "2026-07-13T08:22:13",
+    "hash": "1bb8b9463f5ddb58d09f4e3357e44fa3bc27f01544dd9b9a2606ef392387a92b"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23777,
+    "match_bruto": 23811,
     "sem_match_bruto": 3688,
-    "cobertura_bruta": "86,57%",
-    "match_operacional": 23755,
+    "cobertura_bruta": "86,59%",
+    "match_operacional": 23789,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27465,
-    "linhas_operacionais_antes_dedup": 23777,
-    "linhas_operacionais_finais": 23755,
+    "linhas_entrada": 27499,
+    "linhas_operacionais_antes_dedup": 23811,
+    "linhas_operacionais_finais": 23789,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23777
+      "MANTIDO_TIPO_VALIDO": 23811
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 549,
@@ -76,43 +76,43 @@
     "cards": [
       {
         "Card": "Pedidos Entregues",
-        "Valor HTML regenerado": "1.167",
-        "Valor fonte fresca": "1.167",
+        "Valor HTML regenerado": "1.094",
+        "Valor fonte fresca": "1.094",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "7.966",
-        "Valor fonte fresca": "7.966",
+        "Valor HTML regenerado": "7.678",
+        "Valor fonte fresca": "7.678",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "5.691",
-        "Valor fonte fresca": "5.691",
+        "Valor HTML regenerado": "5.422",
+        "Valor fonte fresca": "5.422",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.275",
-        "Valor fonte fresca": "2.275",
+        "Valor HTML regenerado": "2.256",
+        "Valor fonte fresca": "2.256",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "71,4%",
-        "Valor fonte fresca": "71,4%",
+        "Valor HTML regenerado": "70,6%",
+        "Valor fonte fresca": "70,6%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "28,6%",
-        "Valor fonte fresca": "28,6%",
+        "Valor HTML regenerado": "29,4%",
+        "Valor fonte fresca": "29,4%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
@@ -138,8 +138,8 @@
       "lpn_oculto_exportacoes": true,
       "termos_proibidos": [],
       "cards_coerentes": true,
-      "periodo_30d_inicio": "2026-06-12T00:00:00",
-      "periodo_30d_fim": "2026-07-11T23:59:59.999000"
+      "periodo_30d_inicio": "2026-06-13T00:00:00",
+      "periodo_30d_fim": "2026-07-12T23:59:59.999000"
     }
   }
 }

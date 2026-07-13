@@ -1,6 +1,6 @@
 # Relatorio Validacao Final Cards Hibrido Aderente
 
-Data/hora: 13/07/2026 08:06:41
+Data/hora: 13/07/2026 08:20:03
 
 ## Resultado
 
@@ -21,22 +21,22 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 
 ## Execucao fresca
 
-- VTC_STAGE linhas brutas: 32.546
-- VTC_STAGE deduplicada: 27.465
-- Fonte original linhas brutas: 539.899
-- Fonte original linhas consolidadas: 30.386
-- Fonte original deduplicada: 24.319
-- Com fonte original atualizada: 23.777
+- VTC_STAGE linhas brutas: 32.595
+- VTC_STAGE deduplicada: 27.499
+- Fonte original linhas brutas: 539.917
+- Fonte original linhas consolidadas: 30.439
+- Fonte original deduplicada: 24.357
+- Com fonte original atualizada: 23.811
 - Sem fonte original atualizada: 3.688
-- Cobertura: 86,57%
+- Cobertura: 86,59%
 - Join multiplicou linhas: false
-- Hash VTC_STAGE fresco: `1d8a3c518d35c9cb9b2e9ea800491f23167091c71e478344d5d62d1c14c4da25`
-- Hash fonte original fresca: `a193e90fa50c9e73eef57f5a6ef4d179990f9f5182c3cfb40cf1a1cebf411dfd`
+- Hash VTC_STAGE fresco: `766922e5ace0958ee609f7e5f27f743ce1dacce35df1dd8e3a312789982a88bf`
+- Hash fonte original fresca: `1bb8b9463f5ddb58d09f4e3357e44fa3bc27f01544dd9b9a2606ef392387a92b`
 
 ## Camada operacional segura
 
-- Linhas de entrada antes da regra operacional: 27.465
-- Linhas operacionais finais: 23.755
+- Linhas de entrada antes da regra operacional: 27.499
+- Linhas operacionais finais: 23.789
 - Duplicidade Pedido + Logger antes da deduplicacao: 22 chaves / 44 linhas
 - Duplicidade Pedido + Logger final: 0
 - TIPO_NAO_CLASSIFICADO final: 0
@@ -47,21 +47,21 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 
 | Card | Valor HTML regenerado | Valor fonte fresca | Diferenca | Status |
 | --- | --- | --- | --- | --- |
-| Pedidos Entregues | 1.167 | 1.167 | 0 | OK |
-| Loggers Entregues | 7.966 | 7.966 | 0 | OK |
-| Loggers Retornados | 5.691 | 5.691 | 0 | OK |
-| Loggers Pendentes | 2.275 | 2.275 | 0 | OK |
-| Taxa de Retorno | 71,4% | 71,4% | +0,0 p,p, | OK |
-| Taxa de Pendencia | 28,6% | 28,6% | +0,0 p,p, | OK |
+| Pedidos Entregues | 1.094 | 1.094 | 0 | OK |
+| Loggers Entregues | 7.678 | 7.678 | 0 | OK |
+| Loggers Retornados | 5.422 | 5.422 | 0 | OK |
+| Loggers Pendentes | 2.256 | 2.256 | 0 | OK |
+| Taxa de Retorno | 70,6% | 70,6% | +0,0 p,p, | OK |
+| Taxa de Pendencia | 29,4% | 29,4% | +0,0 p,p, | OK |
 
 ## Valores finais 30 dias
 
-- Pedidos Entregues: 1.167
-- Loggers Entregues: 7.966
-- Loggers Retornados: 5.691
-- Loggers Pendentes: 2.275
-- Taxa de Retorno: 71.4%
-- Taxa de Pendencia: 28.6%
+- Pedidos Entregues: 1.094
+- Loggers Entregues: 7.678
+- Loggers Retornados: 5.422
+- Loggers Pendentes: 2.256
+- Taxa de Retorno: 70.6%
+- Taxa de Pendencia: 29.4%
 
 ## Confirmacoes
 
