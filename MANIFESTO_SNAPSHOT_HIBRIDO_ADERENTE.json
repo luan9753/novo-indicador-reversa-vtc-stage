@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12T22:08:18",
+  "gerado_em": "2026-07-12T22:21:54",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,7 +14,7 @@
     "linhas": 27426,
     "periodo_min": "2026-04-14T10:41:50.002000",
     "periodo_max": "2026-07-11T22:54:00",
-    "extraido_em": "2026-07-12T22:08:25",
+    "extraido_em": "2026-07-12T22:22:01",
     "hash": "3e4a00f2564e6f0d0646e667cc45d12dfda9f0cff9d45a415376413fc1e45b93"
   },
   "complemento_controlado": {
@@ -30,13 +30,13 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539410,
+    "linhas_brutas": 539449,
     "linhas_consolidadas": 30534,
     "linhas_deduplicadas": 24460,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-12T22:10:24",
-    "hash": "da3ca9e87b017b1e975ddebac10c5b148169456cadfa692d3a36997da219d5e2"
+    "extraido_em": "2026-07-12T22:24:35",
+    "hash": "2a78b800f2b3a0c024f95fb95aecfdb5063bf8e0cff68260879b744b44bd79a4"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
@@ -90,15 +90,15 @@
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "5.590",
-        "Valor fonte fresca": "5.590",
+        "Valor HTML regenerado": "5.591",
+        "Valor fonte fresca": "5.591",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.332",
-        "Valor fonte fresca": "2.332",
+        "Valor HTML regenerado": "2.331",
+        "Valor fonte fresca": "2.331",
         "Diferenca": "0",
         "Status": "OK"
       },
