@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T08:33:58",
+  "gerado_em": "2026-07-13T08:47:58",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,8 +14,8 @@
     "linhas": 27510,
     "periodo_min": "2026-04-14T10:41:50.002000",
     "periodo_max": "2026-07-12T10:00:00",
-    "extraido_em": "2026-07-13T08:34:16",
-    "hash": "e043b0a8d4c3f565b4baa01a1e0919e2650eb6aa3cd5b5936914bf6075e356d0"
+    "extraido_em": "2026-07-13T08:48:14",
+    "hash": "483ab81345a0727afb5c59aa70528108ca1bcebd953fb08512c0a082925b6b4c"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,13 +30,13 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539929,
-    "linhas_consolidadas": 30472,
-    "linhas_deduplicadas": 24369,
+    "linhas_brutas": 539938,
+    "linhas_consolidadas": 30473,
+    "linhas_deduplicadas": 24370,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-13T08:35:51",
-    "hash": "c1cb35094f662c6b5dcae4cd1f3451a4b1beb17f0a6336361882020be12419ef"
+    "extraido_em": "2026-07-13T08:49:54",
+    "hash": "1c798de7ba3c54904f157b2dd63e22e08c8d624262637b00e104e5b832c0d88e"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
@@ -90,29 +90,29 @@
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "5.453",
-        "Valor fonte fresca": "5.453",
+        "Valor HTML regenerado": "5.534",
+        "Valor fonte fresca": "5.534",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.236",
-        "Valor fonte fresca": "2.236",
+        "Valor HTML regenerado": "2.155",
+        "Valor fonte fresca": "2.155",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "70,9%",
-        "Valor fonte fresca": "70,9%",
+        "Valor HTML regenerado": "72,0%",
+        "Valor fonte fresca": "72,0%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "29,1%",
-        "Valor fonte fresca": "29,1%",
+        "Valor HTML regenerado": "28,0%",
+        "Valor fonte fresca": "28,0%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }

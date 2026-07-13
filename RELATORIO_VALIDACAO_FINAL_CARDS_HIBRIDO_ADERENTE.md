@@ -1,6 +1,6 @@
 # Relatorio Validacao Final Cards Hibrido Aderente
 
-Data/hora: 13/07/2026 08:33:58
+Data/hora: 13/07/2026 08:47:58
 
 ## Resultado
 
@@ -23,15 +23,15 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 
 - VTC_STAGE linhas brutas: 32.627
 - VTC_STAGE deduplicada: 27.510
-- Fonte original linhas brutas: 539.929
-- Fonte original linhas consolidadas: 30.472
-- Fonte original deduplicada: 24.369
+- Fonte original linhas brutas: 539.938
+- Fonte original linhas consolidadas: 30.473
+- Fonte original deduplicada: 24.370
 - Com fonte original atualizada: 23.822
 - Sem fonte original atualizada: 3.688
 - Cobertura: 86,59%
 - Join multiplicou linhas: false
-- Hash VTC_STAGE fresco: `e043b0a8d4c3f565b4baa01a1e0919e2650eb6aa3cd5b5936914bf6075e356d0`
-- Hash fonte original fresca: `c1cb35094f662c6b5dcae4cd1f3451a4b1beb17f0a6336361882020be12419ef`
+- Hash VTC_STAGE fresco: `483ab81345a0727afb5c59aa70528108ca1bcebd953fb08512c0a082925b6b4c`
+- Hash fonte original fresca: `1c798de7ba3c54904f157b2dd63e22e08c8d624262637b00e104e5b832c0d88e`
 
 ## Camada operacional segura
 
@@ -49,19 +49,19 @@ O HTML hibrido aderente ao original foi regenerado usando somente fontes frescas
 | --- | --- | --- | --- | --- |
 | Pedidos Entregues | 1.095 | 1.095 | 0 | OK |
 | Loggers Entregues | 7.689 | 7.689 | 0 | OK |
-| Loggers Retornados | 5.453 | 5.453 | 0 | OK |
-| Loggers Pendentes | 2.236 | 2.236 | 0 | OK |
-| Taxa de Retorno | 70,9% | 70,9% | +0,0 p,p, | OK |
-| Taxa de Pendencia | 29,1% | 29,1% | +0,0 p,p, | OK |
+| Loggers Retornados | 5.534 | 5.534 | 0 | OK |
+| Loggers Pendentes | 2.155 | 2.155 | 0 | OK |
+| Taxa de Retorno | 72,0% | 72,0% | +0,0 p,p, | OK |
+| Taxa de Pendencia | 28,0% | 28,0% | +0,0 p,p, | OK |
 
 ## Valores finais 30 dias
 
 - Pedidos Entregues: 1.095
 - Loggers Entregues: 7.689
-- Loggers Retornados: 5.453
-- Loggers Pendentes: 2.236
-- Taxa de Retorno: 70.9%
-- Taxa de Pendencia: 29.1%
+- Loggers Retornados: 5.534
+- Loggers Pendentes: 2.155
+- Taxa de Retorno: 72.0%
+- Taxa de Pendencia: 28.0%
 
 ## Confirmacoes
 
