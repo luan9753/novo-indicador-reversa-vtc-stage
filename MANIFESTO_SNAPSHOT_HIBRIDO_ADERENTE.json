@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T07:25:57",
+  "gerado_em": "2026-07-13T07:39:12",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32494,
-    "linhas": 27426,
+    "linhas_brutas": 32546,
+    "linhas": 27465,
     "periodo_min": "2026-04-14T10:41:50.002000",
     "periodo_max": "2026-07-11T22:54:00",
-    "extraido_em": "2026-07-13T07:26:03",
-    "hash": "7ea60a483071c7461940d71ad292a1502f831f007a72e34c9cae0934cadbcca4"
+    "extraido_em": "2026-07-13T07:39:27",
+    "hash": "728de7494fbbd67f33108fd4c6ec52049bd0d85fa4067cbeda2812234ca25f0b"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,37 +30,37 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 539887,
+    "linhas_brutas": 539889,
     "linhas_consolidadas": 30386,
     "linhas_deduplicadas": 24319,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-13T07:27:42",
-    "hash": "e3b3990128f98bcc7e3455d88481a3803e8065844e58caf3b6f009733fdf82fb"
+    "extraido_em": "2026-07-13T07:41:24",
+    "hash": "4d75cce263075ba6640181124a7f974bcd2f10141342ab07f0493b625b64402f"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23750,
-    "sem_match_bruto": 3676,
-    "cobertura_bruta": "86,60%",
-    "match_operacional": 23728,
+    "match_bruto": 23777,
+    "sem_match_bruto": 3688,
+    "cobertura_bruta": "86,57%",
+    "match_operacional": 23755,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27426,
-    "linhas_operacionais_antes_dedup": 23750,
-    "linhas_operacionais_finais": 23728,
+    "linhas_entrada": 27465,
+    "linhas_operacionais_antes_dedup": 23777,
+    "linhas_operacionais_finais": 23755,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23750
+      "MANTIDO_TIPO_VALIDO": 23777
     },
     "remocoes": {
-      "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 537,
+      "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 549,
       "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3139,
       "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
     },
@@ -76,43 +76,43 @@
     "cards": [
       {
         "Card": "Pedidos Entregues",
-        "Valor HTML regenerado": "1.165",
-        "Valor fonte fresca": "1.165",
+        "Valor HTML regenerado": "1.167",
+        "Valor fonte fresca": "1.167",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "7.939",
-        "Valor fonte fresca": "7.939",
+        "Valor HTML regenerado": "7.966",
+        "Valor fonte fresca": "7.966",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "5.673",
-        "Valor fonte fresca": "5.673",
+        "Valor HTML regenerado": "5.682",
+        "Valor fonte fresca": "5.682",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.266",
-        "Valor fonte fresca": "2.266",
+        "Valor HTML regenerado": "2.284",
+        "Valor fonte fresca": "2.284",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Retorno",
-        "Valor HTML regenerado": "71,5%",
-        "Valor fonte fresca": "71,5%",
+        "Valor HTML regenerado": "71,3%",
+        "Valor fonte fresca": "71,3%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       },
       {
         "Card": "Taxa de Pendencia",
-        "Valor HTML regenerado": "28,5%",
-        "Valor fonte fresca": "28,5%",
+        "Valor HTML regenerado": "28,7%",
+        "Valor fonte fresca": "28,7%",
         "Diferenca": "+0,0 p,p,",
         "Status": "OK"
       }
