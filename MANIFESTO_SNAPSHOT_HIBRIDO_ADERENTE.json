@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T21:28:16",
+  "gerado_em": "2026-07-13T21:42:14",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,8 +14,8 @@
     "linhas": 27292,
     "periodo_min": "2026-04-15T06:40:00.002000",
     "periodo_max": "2026-07-13T18:15:00",
-    "extraido_em": "2026-07-13T21:28:30",
-    "hash": "ae2cc0cb020a69ae53cb1da31345d9ee280116e955f1d6ec61fcbf468fdfd26e"
+    "extraido_em": "2026-07-13T21:42:21",
+    "hash": "14089edd6aeab57dff7cddb1525891d269bed20322ad4fa01fe786a6ddbf9a5c"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,37 +30,37 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 540562,
+    "linhas_brutas": 540573,
     "linhas_consolidadas": 30647,
     "linhas_deduplicadas": 24488,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-13T21:30:38",
+    "extraido_em": "2026-07-13T21:44:43",
     "hash": "051efc871c7420237629d6c1c1c1e880ab60b9bb36e64312f9bca2754a2524d2"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23761,
-    "sem_match_bruto": 3531,
-    "cobertura_bruta": "87,06%",
-    "match_operacional": 23739,
+    "match_bruto": 23770,
+    "sem_match_bruto": 3522,
+    "cobertura_bruta": "87,10%",
+    "match_operacional": 23748,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
     "linhas_entrada": 27292,
-    "linhas_operacionais_antes_dedup": 23761,
-    "linhas_operacionais_finais": 23739,
+    "linhas_operacionais_antes_dedup": 23770,
+    "linhas_operacionais_finais": 23748,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23761
+      "MANTIDO_TIPO_VALIDO": 23770
     },
     "remocoes": {
-      "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 526,
+      "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 517,
       "REMOVIDO_STATUS_RETORNO_NAO_OPERACIONAL": 3005,
       "REMOVIDO_DUPLICIDADE_DESEMPATE": 22
     },
@@ -83,15 +83,15 @@
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "7.752",
-        "Valor fonte fresca": "7.752",
+        "Valor HTML regenerado": "7.761",
+        "Valor fonte fresca": "7.761",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Retornados",
-        "Valor HTML regenerado": "5.764",
-        "Valor fonte fresca": "5.764",
+        "Valor HTML regenerado": "5.773",
+        "Valor fonte fresca": "5.773",
         "Diferenca": "0",
         "Status": "OK"
       },

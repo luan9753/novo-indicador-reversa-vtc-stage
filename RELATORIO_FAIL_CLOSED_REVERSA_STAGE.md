@@ -1,6 +1,6 @@
 # Relatorio Fail-Closed Reversa Stage
 
-Data/hora: 13/07/2026 21:28:16
+Data/hora: 13/07/2026 21:42:14
 
 ## Resultado
 
@@ -40,8 +40,8 @@ Data/hora: 13/07/2026 21:28:16
 ## Cards finais 30 dias
 
 - Pedidos Entregues: 1.105
-- Loggers Entregues: 7.752
-- Loggers Retornados: 5.764
+- Loggers Entregues: 7.761
+- Loggers Retornados: 5.773
 - Loggers Pendentes: 1.988
 - Taxa de Retorno: 74.4%
 - Taxa de Pendencia: 25.6%
