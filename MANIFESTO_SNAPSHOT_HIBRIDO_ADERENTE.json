@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-13T23:34:43",
+  "gerado_em": "2026-07-13T23:48:29",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -14,8 +14,8 @@
     "linhas": 27292,
     "periodo_min": "2026-04-15T06:40:00.002000",
     "periodo_max": "2026-07-13T18:15:00",
-    "extraido_em": "2026-07-13T23:35:01",
-    "hash": "3d0ad5dc7142790abdf3e7f23b66d95abd7abbb0aece30366d8c6bd7ffff1cc3"
+    "extraido_em": "2026-07-13T23:48:50",
+    "hash": "efd5e764782589ff5225fd2515dff73fb1c738e383f9a0b9d6d0a684728f8eae"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,13 +30,13 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 540680,
+    "linhas_brutas": 540708,
     "linhas_consolidadas": 30583,
     "linhas_deduplicadas": 24423,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-13T23:36:58",
-    "hash": "e4b6890eb7ed77e265de2e0c860a0537436049a674f59368762f4b02b6246d67"
+    "extraido_em": "2026-07-13T23:51:16",
+    "hash": "5b5dc523c665698f3382764c97389556d26e34a768cee3ecf377d7f36a7e39fd"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
