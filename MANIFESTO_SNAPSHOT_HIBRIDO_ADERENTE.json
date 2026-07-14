@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-14T13:57:24",
+  "gerado_em": "2026-07-14T14:11:20",
   "base_principal": {
     "fonte": "VTC_STAGE",
     "schema": "vtc_stage",
@@ -10,12 +10,12 @@
       "Logger/Tag",
       "Romaneio"
     ],
-    "linhas_brutas": 32692,
-    "linhas": 27656,
+    "linhas_brutas": 32693,
+    "linhas": 27657,
     "periodo_min": "2026-04-15T06:40:00.002000",
-    "periodo_max": "2026-07-14T15:52:00",
-    "extraido_em": "2026-07-14T13:57:42",
-    "hash": "7f85e41e01abb8fd1719d4d5c0944039dd726f4891cf81f1e6945121fced530d"
+    "periodo_max": "2026-07-14T16:53:00",
+    "extraido_em": "2026-07-14T14:11:27",
+    "hash": "362e2449602030eaaa6647cc3c01b9982c954156461cb0872521ba05a3c181ef"
   },
   "complemento_controlado": {
     "fontes": [
@@ -30,34 +30,34 @@
       "Cidade Destino",
       "Destinatario"
     ],
-    "linhas_brutas": 541226,
+    "linhas_brutas": 541242,
     "linhas_consolidadas": 30543,
     "linhas_deduplicadas": 24356,
     "conflitos_agente": 0,
     "conflitos_status_retorno": 0,
-    "extraido_em": "2026-07-14T13:59:33",
+    "extraido_em": "2026-07-14T14:13:07",
     "hash": "e0eb4abab16160fd87ceb24b571cb1bc6f938325d7ad837eef7b6dfe6e589ac2"
   },
   "join": {
     "tipo": "left join a partir da VTC_STAGE",
     "chave": "Pedido + Logger/Tag",
-    "match_bruto": 23866,
+    "match_bruto": 23867,
     "sem_match_bruto": 3790,
     "cobertura_bruta": "86,30%",
-    "match_operacional": 23844,
+    "match_operacional": 23845,
     "sem_match_operacional": 0,
     "cobertura_operacional": "100,00%",
     "multiplicou_linhas": false
   },
   "camada_operacional": {
-    "linhas_entrada": 27656,
-    "linhas_operacionais_antes_dedup": 23866,
-    "linhas_operacionais_finais": 23844,
+    "linhas_entrada": 27657,
+    "linhas_operacionais_antes_dedup": 23867,
+    "linhas_operacionais_finais": 23845,
     "duplicidade_chaves_antes_dedup": 22,
     "duplicidade_linhas_antes_dedup": 44,
     "duplicidade_chaves_final": 0,
     "tipo_decisoes": {
-      "MANTIDO_TIPO_VALIDO": 23866
+      "MANTIDO_TIPO_VALIDO": 23867
     },
     "remocoes": {
       "REMOVIDO_SEM_PEDIDO_OU_LOGGER_VALIDO": 517,
@@ -76,15 +76,15 @@
     "cards": [
       {
         "Card": "Pedidos Entregues",
-        "Valor HTML regenerado": "1.130",
-        "Valor fonte fresca": "1.130",
+        "Valor HTML regenerado": "1.131",
+        "Valor fonte fresca": "1.131",
         "Diferenca": "0",
         "Status": "OK"
       },
       {
         "Card": "Loggers Entregues",
-        "Valor HTML regenerado": "8.058",
-        "Valor fonte fresca": "8.058",
+        "Valor HTML regenerado": "8.059",
+        "Valor fonte fresca": "8.059",
         "Diferenca": "0",
         "Status": "OK"
       },
@@ -97,8 +97,8 @@
       },
       {
         "Card": "Loggers Pendentes",
-        "Valor HTML regenerado": "2.245",
-        "Valor fonte fresca": "2.245",
+        "Valor HTML regenerado": "2.246",
+        "Valor fonte fresca": "2.246",
         "Diferenca": "0",
         "Status": "OK"
       },
